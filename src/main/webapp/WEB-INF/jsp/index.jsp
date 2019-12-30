@@ -1,7 +1,10 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <body>
-<h2>Hello World!!!</h2>
-<h1>Welcome ${user} to stackroute</h1>
+<h2>Login</h2>
+<form action="displayUser" method="POST">
+	<input type="text" name="userName" placeholder="Enter User Name">
+	<input type="password" name="userPassword" placeholder="Enter User Password">
+	<input type="submit" name="submit">
+</form>
 </body>
 </html>
